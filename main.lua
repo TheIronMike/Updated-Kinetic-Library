@@ -1544,7 +1544,7 @@ Library.NewWindow = function(window_info)
                 
                 function dropdown_funcs.ClearOptions()
                     for __, Frame in next, Frames_Cache do
-                        Frame.Destroy()
+                        Frame:Destroy()
                     end
                 end
 
